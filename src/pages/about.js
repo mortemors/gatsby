@@ -3,8 +3,7 @@ import React from 'react'
 import Layout from "../components/layout"
 
 
-const AboutPage = () => {
-  return (
+const AboutPage = () => (
     <Layout>
     <div>
       <h1>About Us</h1>
@@ -13,6 +12,5 @@ const AboutPage = () => {
     </div>
     </Layout>
   )
-}
 
 export default AboutPage;
